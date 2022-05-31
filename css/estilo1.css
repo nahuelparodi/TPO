@@ -1,0 +1,197 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(../img/ai.jpg);
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    height: 100px;
+    background: #4d4d5c ;
+    padding: 0 50px ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white ;
+    margin-right: 15px;
+
+
+}
+.logo1{
+    text-transform: uppercase;
+    color: #6cc091;
+    font-weight: 200;
+
+
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px ;
+    transition: 0.4s;
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display:none;
+    transition: 00.4s;
+
+}
+.mostrar-menu{
+    order: 1;
+
+}
+.menu a:hover,
+.mostrar-menu:hover{
+    color: #6cc091;
+}
+#check{
+    display: none;
+}
+
+#contenido_principal{
+    height: 700px;
+        margin-left: auto;
+    margin-right: auto;
+
+
+}
+#contenedor1{
+    height: 330px;
+    width: 95%;
+    box-sizing: border-box;
+    background-color: #676870;
+        justify-content: center;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 15px;
+    border:2px solid #000 ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.imagen1 {
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.imagen1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+   
+    
+
+
+#contenedor2{
+    height: 330px;
+    width: 95%;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #676870;
+    opacity: 0.9;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 15px;
+    border:2px solid #000 ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#imagen2{
+    width: 30%;
+    height: 300px;
+    background-image: url(../img/herramientas-infaltables-en-una-caja-de-herrameitnas-1.jpg);
+    float:left;
+    margin-right: 15px;
+    background-size: cover;
+    margin-top: 10px;
+    
+
+}
+#texto_contenido{
+    
+    width: 70%;
+     height: 300px; 
+     float: right;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 10px;
+     box-sizing: border-box;
+}
+#titulo_segundo{
+    color: #fff;
+}
+#texto_contenido p{
+    color: #fff;
+}
+footer{
+    width: 100%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-top:10px solid #fff;
+
+}
+#datos{
+    width:300px;
+    height: 180px;
+    float:left;
+    padding:20px;
+    box-sizing: border-box;
+}
+#redes{
+    width:300px;
+    height: 150px;
+    padding: 20px;
+    float: right;
+    padding:20px;
+    box-sizing: border-box;
+    align-items:baseline ;
+   
+    
+
+
+}
+#podes{
+    font-size: small;
+}
+#redes i:hover{
+    color: yellowgreen;
+}
